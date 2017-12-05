@@ -127,6 +127,7 @@ end
 function IM = loadimage(params,dname,jj)
         IM = imread(sprintf(params.imagefile,dname,jj-1));
            
+        % Special case for GPW dataset
 	    if strcmp(dname,'day_left') || strcmp(dname, 'day_right')
             IM = imresize(IM,[360,640]);
         end
