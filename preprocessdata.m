@@ -119,7 +119,7 @@ function [feats1,validPts1] = loadtestdata(dname,jj,params)
             pts = detectSURFFeatures(rgb2gray(IM),'MetricThreshold',params.metric_threshold,'NumScaleLevels',params.scale_levels,'NumOctaves',params.num_octaves);
             
             % extract SURF 
-            [feats1,validPts1] = extractHOGFeaturesFromSURF2TMP(IM,pts,params.p,params.fnum);    
+            [feats1,validPts1] = extractHOGFeaturesFromSURF(IM,pts,params.p,params.fnum);    
             
             feats1 = single(feats1);
 end
@@ -133,7 +133,7 @@ function IM = loadimage(params,dname,jj)
         end
 end
 
-function [feats,validPts] = extractHOGFeaturesFromSURF2TMP(Im,Pts,params,FNUM)
+function [feats,validPts] = extractHOGFeaturesFromSURF(Im,Pts,params,FNUM)
 
    bs = params{1}; 
    nb = params{2};
