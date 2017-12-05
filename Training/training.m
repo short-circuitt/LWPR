@@ -1,4 +1,4 @@
-function training
+function training(feats,pcafile,dim,k)
 
 % Load training data
 

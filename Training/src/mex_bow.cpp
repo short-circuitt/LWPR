@@ -13,9 +13,6 @@ using std::string;
 // Need to clear memory if exception occurs.....
 void mexFunction(int nlhs, mxArray *plhs[], int nrhs, const mxArray *prhs[]) {
 
-	// seed random number gen
-	//srand ( time(NULL) );
-
 	// define persistent static pointers
 	static Codebook *codebook;
 
