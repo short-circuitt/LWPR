@@ -1,6 +1,22 @@
 # LWPR
 
-Evaluation of light-weight place recognition approaches in changing environments
+Evaluation of light-weight place recognition approaches in changing environments in [Lowry and Andreasson][http://ieeexplore.ieee.org/document/8258890/?arnumber=8258890].
+
+Reference:
+
+```
+@ARTICLE{8258890, 
+author={S. Lowry and H. Andreasson}, 
+journal={IEEE Robotics and Automation Letters}, 
+title={Lightweight, Viewpoint-Invariant Visual Place Recognition in Changing Environments}, 
+year={2018}, 
+volume={3}, 
+number={2}, 
+pages={957-964}, 
+doi={10.1109/LRA.2018.2793308}, 
+month={April}
+}
+```
 
 ## Dependencies
 
