@@ -1,6 +1,6 @@
 # LWPR
 
-Evaluation of light-weight place recognition approaches in changing environments in [Lowry and Andreasson][http://ieeexplore.ieee.org/document/8258890/?arnumber=8258890].
+Evaluation of light-weight place recognition approaches in changing environments in [Lowry and Andreasson](http://ieeexplore.ieee.org/document/8258890/?arnumber=8258890).
 
 ## Dependencies
 
